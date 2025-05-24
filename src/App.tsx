@@ -134,7 +134,7 @@ Passionate about blending functionality with design, I build digital experiences
             <div className="md:w-1/2 flex justify-center">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-200">
                 <img 
-                  src="samruddhiMain.jpg" 
+                  src="/samruddhiMain.jpg" 
                   alt="Samruddhi Bobade" 
                   className="w-full h-full object-cover object-[center_20%]"
                 />
