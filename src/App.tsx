@@ -217,15 +217,15 @@ With a blend of Python, Django, JavaScript, and OpenAI tools, I turn complex ide
             {[
   {
   title: "Frontend Development",
-  skills: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Tailwind CSS", "Responsive Design"]
+  skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
 },
 {
   title: "Backend Development",
-  skills: ["Python", "Django", "MySQL", "RESTful APIs", "Web Scraping"]
+  skills: ["Python", "Django", "MySQL","SQLite", "RESTful APIs", "Web Scraping"]
 },
 {
   title: "AI & Machine Learning",
-  skills: ["OpenAI API", "AssemblyAI", "Resume Screening Models", "Basic ML Algorithms"]
+  skills: ["OpenAI API", "AssemblyAI", "Cloud computing", "Basic ML Algorithms"]
 },
 {
   title: "Tools & Platforms",
@@ -233,7 +233,7 @@ With a blend of Python, Django, JavaScript, and OpenAI tools, I turn complex ide
 },
 {
   title: "Project Highlights",
-  skills: ["GreenCart", "AI Blog Generator", "YojanaSetu"]
+  skills: ["GreenCart", "PlaceMate", "CatFusion"]
 },
 {
   title: "Soft Skills",
@@ -262,20 +262,29 @@ With a blend of Python, Django, JavaScript, and OpenAI tools, I turn complex ide
           <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              {
+              
+{
+                title: "PlaceMate",
+                description: "PlaceMate – Smart Placement Companion is an AI-powered placement preparation platform designed to support students in effectively preparing for job interviews and placements",
+                image: "https://media.istockphoto.com/id/1461631331/photo/group-of-young-indian-students-busy-on-by-discussing-of-syllabus-during-examination-at.jpg?s=612x612&w=0&k=20&c=z_PcwZGiYAOqKesBoLtYfRKRjYrmQ3vjtcTNEB6M6eY=",
+                technologies: ["Django", "Python", "MySQL", "OpenAI API", "rapidJob API" ,"HTML", "CSS", "JavaScript"],
+                liveLink: "https://example.com",
+                githubLink: "https://github.com/samruddhib283"
+},
+{
   title: "GreenCart",
   description: "A smart e-commerce platform for fresh vegetables featuring mood-based meal kits, dynamic pricing, and farmer storytelling.",
-  image: "https://images.pexels.com/photos/65174/pexels-photo-65174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  image: "https://media.istockphoto.com/id/532865778/photo/hands-holding-a-grate-full-of-fresh-vegetables.jpg?s=1024x1024&w=is&k=20&c=BXi3veDAUjI4DkabsGqs5Cal7PnDPL59Dz1YBOf5kfg=",
   technologies: ["Django", "Python", "MySQL", "HTML", "CSS", "JavaScript"],
   liveLink: "https://your-demo-link.com",  // replace with real if available
   githubLink: "https://github.com/samruddhib283/GreenCart2.0"
 },
-              {
-  title: "AI Blog Generator",
-  description: "A web-based app that generates blog content from YouTube videos using AssemblyAI and OpenAI's ChatGPT.",
-  image: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  technologies: ["HTML", "CSS", "JavaScript", "Python", "OpenAI API", "AssemblyAI"],
-  liveLink: "https://your-demo-link.com", // optional
+{
+  title: "EvenEase",
+  description: "A student-friendly platform to browse campus events, handle registrations, and manage payments seamlessly for both students and class representatives",
+  image: "https://media.istockphoto.com/id/1179434208/photo/indian-businesswoman-leading-the-seminar.jpg?s=1024x1024&w=is&k=20&c=pIl8YP46GWzHZ5uHXT-lmVy3Nr7HEti0b2BGBCh2sHQ=",
+  technologies: ["HTML", "CSS", "JavaScript", "Python(Flask)", "SQLite", "Razorpay API"],
+  liveLink: "#", // optional
   githubLink: "https://github.com/samruddhib283"
 },
 
@@ -288,12 +297,12 @@ With a blend of Python, Django, JavaScript, and OpenAI tools, I turn complex ide
   githubLink: "https://github.com/samruddhib283/Yojasetu"
 },
               {
-  title: "AI Resume Screener",
-  description: "A machine learning-based resume screening and tracking tool developed during AICTE's TechSaksham internship.",
-  image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  technologies: ["Python", "Machine Learning", "NLP", "Pandas", "Scikit-learn"],
+  title: "CatFusion",
+  description: "training and applying a custom LoRA model on Stable Diffusion to generate cats",
+  image: "https://media.istockphoto.com/id/1159371503/photo/cat-in-laptop-screen.jpg?s=1024x1024&w=is&k=20&c=YJlL5xxzPragpJAgCwqW2wd383JA2TI6ZSq88JIWFSc=",
+  technologies: ["Google Colab", "Python PyTorch", "Diffusers (Hugging Face)", "Custom LoRA (Low-Rank Adaptation) model to generate images"],
   liveLink: "#",
-  githubLink: "#" // Replace if hosted or uploaded
+  githubLink: "https://colab.research.google.com/drive/12sZ3xCL9FCFwu8pGoXjXLdQfXevNAlvA?usp=sharing" // Replace if hosted or uploaded
 },
               {
   title: "Student Performance Predictor",
@@ -303,14 +312,7 @@ With a blend of Python, Django, JavaScript, and OpenAI tools, I turn complex ide
   liveLink: "#", // optional demo or notebook link
   githubLink: "https://github.com/samruddhib283" // update with exact repo if available
 },
-              {
-                title: "Weather Application",
-                description: "A weather forecasting application with location-based services and interactive maps.",
-                image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                technologies: ["React", "OpenWeather API", "Leaflet", "Tailwind CSS"],
-                liveLink: "https://example.com",
-                githubLink: "https://github.com"
-              }
+
             ].map((project, index) => (
               <div key={index} className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
                 <div className="h-48 overflow-hidden">
